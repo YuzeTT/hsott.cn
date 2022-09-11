@@ -46,11 +46,10 @@
         Go
       </button>
     </div> -->
-
     <div class="px-6 py-[8vh] max-w-[76ch] mx-auto xl:text-lg dark:prose-invert">
       <Hero />
       <HeroButtons />
-      <Project />
+      <ListProject />
     </div>
   </div>
 </template>
