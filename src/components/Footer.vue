@@ -12,4 +12,7 @@
       title="GitHub"
     />
   </nav>
+  <div text-zinc-500 my-2>
+    YuzeTT © 2022
+  </div>
 </template>

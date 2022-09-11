@@ -48,7 +48,9 @@
     </div> -->
     <div class="px-6 py-[8vh] max-w-[76ch] mx-auto xl:text-lg dark:prose-invert">
       <Hero />
+
       <HeroButtons />
+      <div py-2 />
       <ListProject />
     </div>
   </div>

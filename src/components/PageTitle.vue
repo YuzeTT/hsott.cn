@@ -9,7 +9,7 @@ const props = defineProps({
 
 <template>
   <div>
-    <div font-bold py-5 flex justify-between items-center>
+    <div font-bold mb-8 flex justify-between items-center>
       <div>
         <div text-3xl>
           {{ props.cn }}
