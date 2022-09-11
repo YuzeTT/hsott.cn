@@ -10,6 +10,7 @@ declare module '@vue/runtime-core' {
     BilibiliLogo: typeof import('./src/components/icons/BilibiliLogo.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
+    Framework: typeof import('./src/components/Framework.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
     Hero_buttons: typeof import('./src/components/Hero_buttons.vue')['default']
     HeroButtons: typeof import('./src/components/HeroButtons.vue')['default']

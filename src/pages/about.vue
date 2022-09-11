@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="px-6 py-[8vh] max-w-[76ch] mx-auto xl:text-lg dark:prose-invert">
+  <div>
     <PageTitle cn="关于" en="About" />
     <div>
       <div>我是一个平平无奇热爱前端技术与设计的学生。</div>

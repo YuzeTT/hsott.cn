@@ -5,7 +5,7 @@ const links: { name: string; path?: string; url?: string; icon?: string }[] = [
   { name: '主页', path: '/' },
   { name: '项目', path: '/project' },
   { name: '关于', path: '/about' },
-  { name: '', url: 'https://github.com/yuzett', icon: 'i-carbon-logo-github' },
+  { name: '', url: 'https://github.com/yuzett', icon: 'i-ri-github-fill' },
 ]
 
 const jump = (url?: string, path?: string) => {
@@ -26,6 +26,9 @@ const jump = (url?: string, path?: string) => {
         <div v-if="item.icon" :class="item.icon" />
         <div>{{ item.name }}</div>
       </div>
+      <button icon-btn @click="toggleDark()">
+        <div dark:i-carbon-moon i-carbon-sun />
+      </button>
     </div>
   </div>
 </template>

@@ -1,18 +1,5 @@
 <template>
-  <nav text-xl mt-6 inline-flex gap-2>
-    <button icon-btn @click="toggleDark()">
-      <div dark:i-carbon-moon i-carbon-sun />
-    </button>
-
-    <a
-      icon-btn i-carbon-logo-github
-      rel="noreferrer"
-      href="https://github.com/yuzett"
-      target="_blank"
-      title="GitHub"
-    />
-  </nav>
-  <div text-zinc-500 my-2>
+  <div text-zinc-400 dark:text-zinc-700 my-5>
     YuzeTT © 2022
   </div>
 </template>

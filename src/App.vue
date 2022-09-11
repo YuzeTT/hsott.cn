@@ -3,9 +3,9 @@
     <div class="px-6 xl:text-lg dark:prose-invert">
       <Navbar />
     </div>
-    <router-view />
-    <div class="text-center">
+    <Framework>
+      <router-view />
       <Footer />
-    </div>
+    </Framework>
   </main>
 </template>
