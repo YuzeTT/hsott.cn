@@ -12,12 +12,10 @@ declare module '@vue/runtime-core' {
     Footer: typeof import('./src/components/Footer.vue')['default']
     Framework: typeof import('./src/components/Framework.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
-    Hero_buttons: typeof import('./src/components/Hero_buttons.vue')['default']
     HeroButtons: typeof import('./src/components/HeroButtons.vue')['default']
     ListProject: typeof import('./src/components/ListProject.vue')['default']
     Navbar: typeof import('./src/components/Navbar.vue')['default']
     PageTitle: typeof import('./src/components/PageTitle.vue')['default']
-    Project: typeof import('./src/components/Project.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
