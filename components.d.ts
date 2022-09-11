@@ -7,6 +7,7 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    BilibiliLogo: typeof import('./src/components/icons/BilibiliLogo.vue')['default']
     Counter: typeof import('./src/components/Counter.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']

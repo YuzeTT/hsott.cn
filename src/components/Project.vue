@@ -7,8 +7,9 @@ const project: { name: string;text: string;emoji: string; url: string }[] = [
 
 <template>
   <div>
-    <div text-2xl font-bold py-5>
-      Project
+    <div text-3xl font-bold py-5 flex justify-between>
+      <div>Project</div>
+      <a i-carbon-arrow-up-right text-zinc-500 hover:text-zinc-800 target="_blank" href="https://github.com/yuzett" />
     </div>
     <div grid grid-cols-1 sm:grid-cols-2 gap-5>
       <a v-for="(item, i) in project" :key="i" :href="item.url" target="_blank" bg-gray-50 p-5 rounded-md flex gap-5 justify-between items-center hover:bg-gray-100 transition-all dark="bg-zinc-900 hover:bg-zinc-800">
